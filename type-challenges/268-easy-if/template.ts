@@ -1,0 +1,1 @@
+type If<Flag extends true | false, T, U> = Flag extends true ? T : U
